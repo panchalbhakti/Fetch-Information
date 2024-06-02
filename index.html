@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts with User Info</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Posts</h1>
+        <button id="fetch-info">Fetch Information</button>
+        <div id="posts-container"></div>
+        <div id="post-details" class="hidden">
+            <h2>Post Details</h2>
+            <div id="post-content"></div>
+            <h3>Comments</h3>
+            <div id="comments"></div>
+        </div>
+        <div id="loading" class="hidden">Loading...</div>
+        <div id="error" class="hidden">An error occurred. Please try again later.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
